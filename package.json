@@ -1,0 +1,25 @@
+{
+  "name": "gulp-sort-js",
+  "version": "0.0.0",
+  "description": "Sorts a list of JavaScript files based on the dependencies among them.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kuu/gulp-sort-js"
+  },
+  "author": {
+    "name": "Kuu Miyazaki",
+    "email": "miyazaqui@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.0",
+    "through2": "~0.4.0",
+    "esprima": "~1.1.1"
+  }
+}
