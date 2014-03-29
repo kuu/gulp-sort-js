@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kuu/gulp-sort-js"
+    "url": "git://github.com/kuu/gulp-sort-js.git"
   },
   "author": {
     "name": "Kuu Miyazaki",
@@ -14,12 +14,23 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "mocha test.js"
+  },
   "dependencies": {
     "gulp-util": "~2.2.0",
     "through2": "~0.4.0",
     "esprima": "~1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1",
+    "node-promise": "^0.5.10",
+    "gulp": "^3.6.0",
+    "gulp-concat": "^2.2.0"
   }
 }
